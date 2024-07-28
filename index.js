@@ -78,7 +78,7 @@ app.post("/search", async (req,res) => {
       // object to hold all titles/releases/uris held in allReleases
       var allTitles = {
         "title" : [],
-        "wants" : [],
+        "wants" : [], 
         "uri" : []
       };
 
